@@ -1,5 +1,7 @@
 # Picture upload with META Tags
 
+![alt text](https://i2.wp.com/jeds-ai.com/wp-content/uploads/2021/03/2021-03-05-19-32-51.gif)
+
 ## Description
 This project shows how you can generate META Tags for a picture upload automatically with the Google Face Recognition API.
 
