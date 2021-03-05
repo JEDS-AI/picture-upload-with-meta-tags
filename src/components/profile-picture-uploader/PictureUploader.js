@@ -26,7 +26,7 @@ const PictureUploader = () => {
   const [loading, setLoading] = React.useState(false);
   const [APIResponse, setAPIResponse] = React.useState([]);
 
-  const detectFaces = async (image) => {
+  const detectLabels = async (image) => {
     // required body for Google Cloud Vision API call
     const body = JSON.stringify({
       requests: [
@@ -67,7 +67,7 @@ const PictureUploader = () => {
       const reader = new FileReader();
       reader.onload = async (readerEvent) => {
         // calling detectFaces func
-        await detectFaces(btoa(readerEvent.target.result)).then((response) => {
+        await detectLabels(btoa(readerEvent.target.result)).then((response) => {
           // update API response to update ImageMETATags
           console.log(response.responses[0].labelAnnotations);
           setAPIResponse(response.responses[0].labelAnnotations);
