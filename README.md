@@ -5,9 +5,9 @@
 ## Description
 This project shows how you can generate META Tags for a picture upload automatically with the Google Face Recognition API.
 
-You can find the blog post to this project [here](https://jeds-ai.com/).
+You can find the blog post to this project [here](https://jeds-ai.com/how-to-generate-image-tags-automatically/).
 
-In order to get the project running you should insert your Google API-key in the ProfilePictureUploader.js file.
+In order to get the project running you should insert your Google API-key in the PictureUploader.js file.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
